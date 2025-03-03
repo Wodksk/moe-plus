@@ -23,13 +23,4 @@ moe plus
 
 ## 安装
 
-```bash
-git clone [repository URL]
-cd expert-model-system
-pip install -r requirements.txt
-# 示例代码
-from core.dispatcher import Dispatcher
-
-dispatcher = Dispatcher()
-result = dispatcher.dispatch("请分析这张医学影像。", "image") # 假设 "image" 代表图像处理任务
-print(result)
+pip install requests transformers
